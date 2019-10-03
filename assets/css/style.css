@@ -1,0 +1,26 @@
+.header1, .header2, .header3{
+  display: none;
+}
+
+.social-icons{
+  color: #fff;
+}
+
+body{
+  background-image: url( '../images/bg.jpg' );
+  background-size: cover;
+}
+
+header{
+  padding: 20px 0;
+}
+
+header img{
+  max-width: 250px;
+}
+
+header .social-icons{
+  margin-top: 15px;
+  text-align: right;
+  float: right;
+}
