@@ -2,7 +2,15 @@
   display: none;
 }
 
+body{
+  background-color: #000;
+  background-image: url( '../images/bg.jpg' );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #bg-cover{
+  display: none;
   position: fixed;
   background-image: url( '../images/bg.jpg' );
   background-size: cover;
@@ -35,6 +43,14 @@ header .social-icons{
   float: right;
 }
 
+@media( max-width: 768px ){
+  body{
+    background: none;
+  }
+  #bg-cover{
+    display: block;
+  }
+}
 
 @media( max-width:500px ){
   header .social-icons{
