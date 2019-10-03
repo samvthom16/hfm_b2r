@@ -62,3 +62,33 @@ header .social-icons{
     display: none;
   }
 }
+
+
+.bullets-section li h4{
+  line-height:1.4em;
+  font-family: nunito sans 300;
+  font-size: 19px;
+}
+
+.download-icons{
+	margin-top: 50px;
+}
+
+.download-icons img{
+  height: auto;
+  max-width: 100px;
+
+}
+
+
+.footer-end{
+	display: none;
+}
+
+@media( max-width: 500px ){
+  .footer-end{
+  	text-align: center;
+    margin-top: 90px;
+    display: block;
+  }
+}
