@@ -8,6 +8,7 @@
 		<?php wp_head();?>
 	</head>
 	<body <?php body_class(); ?>>
+		<div id="bg-cover"></div>
 		<header>
       <div class="container">
         <a href="<?php bloginfo('url');?>">
