@@ -16,7 +16,7 @@
   color: #fff;
 }
 
-header, #content{
+header, .container{
   position: relative;
   z-index: 2;
 }
